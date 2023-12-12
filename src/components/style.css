@@ -1,0 +1,15 @@
+/* style.css */
+
+.aboutImg {
+    /* background-image: url('https://i.ibb.co/ckL9yBz/about2.jpg'); */
+    background-color: blanchedalmond;
+    /* object-position: center;  */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%; /* Adjust as needed */
+    height: 300px; 
+    /* other styles */
+}
+
