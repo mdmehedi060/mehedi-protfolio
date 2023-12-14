@@ -17,19 +17,7 @@ const Navbar = () => {
 
   const navItems = (
     <>
-      <li>
-        <Link
-          to="home"
-          smooth={true}
-          duration={500}
-          spy={true}
-          activeClass="active"
-          className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
-          onClick={() => setActive(!active)}
-        >
-          Home
-        </Link>
-      </li>
+     
       <li>
         <Link
           to="about"
@@ -41,6 +29,19 @@ const Navbar = () => {
           onClick={() => setActive(!active)}
         >
           About
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500}
+          spy={true}
+          activeClass="active"
+          className={active ? "text-amber-500 text-xl" : "text-white text-xl "}
+          onClick={() => setActive(!active)}
+        >
+          Projetcts
         </Link>
       </li>
       <li>

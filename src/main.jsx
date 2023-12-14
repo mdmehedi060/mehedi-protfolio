@@ -7,12 +7,30 @@ import {
 } from "react-router-dom";
 import App from './App';
 import { ThemeProvider } from "@material-tailwind/react";
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    children:[
+      {
+        path: "about",
+        element: <About></About>,
+      },
+      {
+        path: "projects",
+        element: <Projects></Projects>,
+      },
+      {
+        path: "contact",
+        element: <Contact></Contact>,
+      },
+    ]
   },
+ 
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
