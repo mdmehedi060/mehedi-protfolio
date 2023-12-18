@@ -11,7 +11,7 @@ const About = () => {
         link.click();
     };
     return (
-        <div id="about" className=" aboutImg text-orange-400 my-16 text-center pt-10 ">
+        <div id="about" className="bg-[#FFFBF5] shadow-lg text-orange-400 my-16 text-center pt-10 ">
             <h1 className='text-3xl font-bold border-b-2 border-lime-500 mb-8 w-max mx-auto'>About Me</h1>
 
             <div className="md:flex justify-between items-center md:px-10 pb-14 ">

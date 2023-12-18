@@ -19,10 +19,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                "service_ngj61pm",
-                "template_39d1qga",
+                "service_ueel1gh",
+                "template_ewj6n7m",
                 form.current,
-                "fYc9OsJqwXNOnP2_w"
+                "CGVVrkr6ZOKCQ352a"
             )
             .then(
                 (result) => {
@@ -53,7 +53,7 @@ const Contact = () => {
                    </div>
                    <div className="flex text-white gap-2">
                    <IoLocationOutline className="text-3xl text-cyan-600"/>
-                   <address className="text-2xl">Tanagail Sadar,Dhaka,Bangladesh</address>
+                   <address className="text-2xl">Dhaka,Bangladesh</address>
                    </div>
                 </div>
                 <form className="flex-1 md:w-1/2 mx-auto space-y-8 " ref={form} onSubmit={sendEmail}>
